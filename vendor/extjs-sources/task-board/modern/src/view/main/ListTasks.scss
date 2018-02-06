@@ -1,0 +1,110 @@
+/*
+ * This file contains styling for the ListTasks Grids.
+ */
+
+.x-grid-group-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.x-rowheader .x-innerhtml,
+.task-list .x-grid-group-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.task-group-date {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.task-type {
+  margin-right: 4px;
+  font-weight: normal !important;
+}
+
+.task-type-wrapped:before {
+  content: '(';
+}
+
+.task-type-wrapped:after {
+  content: ')';
+}
+
+.task-type:empty {
+   display: none;
+}
+
+.task-title,
+.task-title * {
+  font-weight: bold;
+  font-size: 14px;
+  color: #404040;
+}
+
+.task-load {
+  font-size: 12px;
+  color: #404040;
+}
+
+.task-overdue {
+  color: #AA0011;
+  font-weight: bold;
+}
+
+
+/* Header coloring */
+.x-titlebar {
+  background-color: #5FA2DD;
+}
+.list-open-tasks .x-titlebar {
+  background-color: #6d7a86;
+}
+.list-current-tasks .x-titlebar {
+  background-color: #3ea219;
+}
+.list-paused-tasks .x-titlebar {
+  background-color: #527545;
+}
+.list-later-tasks .x-titlebar {
+  background-color: #6487a5;
+}
+.list-backlog-tasks .x-titlebar {
+  background-color: #f06b16;
+}
+
+.x-list .x-headercontainer,
+.list-current-tasks .x-headercontainer,
+.list-paused-tasks .x-headercontainer,
+.list-next-tasks .x-headercontainer,
+.list-later-tasks .x-headercontainer,
+.list-open-tasks .x-headercontainer,
+.list-backlog-tasks .x-headercontainer,
+.list-recent-tasks .x-headercontainer {
+  display: none;
+}
+
+/* fix weird wrapping problem :( */
+.list-current-tasks .x-gridcell-body-el,
+.list-paused-tasks .x-gridcell-body-el,
+.list-next-tasks .x-gridcell-body-el,
+.list-later-tasks .x-gridcell-body-el,
+.list-open-tasks .x-gridcell-body-el,
+.list-backlog-tasks .x-gridcell-body-el,
+.list-recent-tasks .x-gridcell-body-el {
+  white-space: inherit;
+}
+
+/* fix weird width:0 problem :( */
+.list-current-tasks .x-gridrow .x-cells-el,
+.list-paused-tasks .x-gridrow .x-cells-el,
+.list-next-tasks .x-gridrow .x-cells-el,
+.list-later-tasks .x-gridrow .x-cells-el,
+.list-open-tasks .x-gridrow .x-cells-el,
+.list-backlog-tasks .x-gridrow .x-cells-el,
+.list-recent-tasks .x-gridrow .x-cells-el {
+  width: 100% !important;
+}

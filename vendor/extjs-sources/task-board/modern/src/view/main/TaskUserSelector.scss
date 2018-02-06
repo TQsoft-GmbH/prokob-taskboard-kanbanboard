@@ -1,0 +1,14 @@
+.x-list .x-headercontainer,
+.task-userselector .x-headercontainer {
+  display: none;
+}
+
+/* fix weird wrapping problem :( */
+.task-userselector .x-gridcell-body-el {
+  white-space: inherit;
+}
+
+/* fix weird width:0 problem :( */
+.task-userselector .x-gridrow .x-cells-el {
+  width: 100% !important;
+}

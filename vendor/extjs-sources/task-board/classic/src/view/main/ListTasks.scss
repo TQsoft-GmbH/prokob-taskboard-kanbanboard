@@ -1,0 +1,89 @@
+/*
+ * This file contains styling for the ListTasks Grids.
+ */
+
+.x-grid-group-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.task-list .x-grid-group-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.task-group-date {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.task-type {
+  margin-right: 4px;
+  font-weight: normal !important;
+}
+
+.task-type-wrapped:before {
+  content: '(';
+}
+
+.task-type-wrapped:after {
+  content: ')';
+}
+
+.task-type:empty {
+   display: none;
+}
+
+/* Handle mouseover on grid rows to display action icons only on hovered row */
+.task-list .x-action-col-icon {
+  display: none;
+  margin-left: 5px;
+}
+.task-list .x-grid-item-over .x-action-col-icon,
+.task-list .x-grid-item-selected .x-action-col-icon {
+  display: inline-block;
+}
+
+.task-title,
+.task-title * {
+  font-weight: bold;
+  font-size: 14px;
+  color: #404040;
+}
+
+.task-load {
+  font-size: 12px;
+  color: #404040;
+}
+
+.task-load-time {
+  font-size: 12px;
+  color: #404040 !important;
+  font-weight: normal !important;
+}
+
+.task-overdue {
+  color: #AA0011;
+  font-weight: bold;
+}
+
+
+/* Header coloring */
+.list-open-tasks .x-panel-header-default {
+  background-color: #6d7a86;
+}
+.list-current-tasks .x-panel-header-default {
+  background-color: #3ea219;
+}
+.list-paused-tasks .x-panel-header-default {
+  background-color: #527545;
+}
+.list-later-tasks .x-panel-header-default {
+  background-color: #6487a5;
+}
+.list-backlog-tasks .x-panel-header-default {
+  background-color: #f06b16;
+}

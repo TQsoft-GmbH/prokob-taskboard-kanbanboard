@@ -1,0 +1,16 @@
+.x-title .x-innerhtml {
+  overflow: visible !important;
+}
+
+.x-tabbar {
+  background-color: #404040;
+}
+
+.x-tab.x-active,
+.x-tab.x-active .x-icon-el {
+  color: #404040;
+}
+
+.x-tab.x-active .x-inner-el {
+  border-radius: 5px 5px 0 0;
+}
