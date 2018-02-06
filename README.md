@@ -24,9 +24,9 @@ For a simple demo the Rails app is using a default SQLite3 database.
 ##Screenshots
 
 ### TaskBoard
-- ![Screenshot TaskBoard](/blob/master/public/screenshot-taskboard.png)
+- ![Screenshot TaskBoard](/public/screenshot-taskboard.png)
 
 ### KanbanBoard
-- ![Screenshot KanbanBoard](/blob/master/public/screenshot-kanbanboard)
+- ![Screenshot KanbanBoard](/public/screenshot-kanbanboard)
 
 
