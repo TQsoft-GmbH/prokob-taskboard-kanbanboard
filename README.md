@@ -21,12 +21,12 @@ For a simple demo the Rails app is using a default SQLite3 database.
 - Open the Taskboard via [http://127.0.0.1:3000/login](http://127.0.0.1:3000/login) and use any of the email/password cominations from the demo users from `db/seeds.rb` 
 - Open the KanbanBoard via [http://127.0.0.1:3000/KanbanBoard/]
 
-##Screenshots
+## Screenshots
 
 ### TaskBoard
 - ![Screenshot TaskBoard](/public/screenshot-taskboard.png)
 
 ### KanbanBoard
-- ![Screenshot KanbanBoard](/public/screenshot-kanbanboard)
+- ![Screenshot KanbanBoard](/public/screenshot-kanbanboard.png)
 
 
