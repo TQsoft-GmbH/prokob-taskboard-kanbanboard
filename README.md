@@ -1,8 +1,8 @@
 # Protoype TaskBoard & KanbanBoard
 
-This application is a Demo / Protoype version that was built as part of [ProKoB](http://www.prokob.info/).
+This application is a demo / protoype version that was built as part of [ProKoB](http://www.prokob.info/).
 
-It consists of a simpliefied Back-End with a REST Interface for 2 Front-Ends. The TaskBoard and the KanbanBoard. The TaskBoard is meant as a tool to support an agile development process by distilling multiple sources of Todos or Task management system (e.g. from  project management tools). To Quickly see what tasks are queeud up and to decide which ones to plan for a day while allowing other users to see what someone is currently working on or what is next on their list.
+It consists of a simpliefied Back-End with a REST interface for 2 front-ends. The myTaskBoard and the KanbanBoard. The myTaskBoard is meant as a tool to support an agile development process by distilling multiple sources of Todos or Task management system (e.g. from  project management tools). To quickly see what tasks are queued up and to decide which ones to plan for a day while allowing other users to see what someone is currently working on or what is next on their list.
 
 The KanbanBoard then *recycles* that information to display a color coded overview about open / ongoing and finished tasks within the development process.
 
